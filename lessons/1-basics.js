@@ -14,7 +14,11 @@
  */
 
 function sortByName(people) {
-  return people.sort((a, b) => {
+  let result = people.slice(0);
+
+  result.sort((a, b) => {
     return a.name.localCompare(b.name);
   });
+
+  return result;
 }
