@@ -1,4 +1,4 @@
-/**
+/*
  * Please convert this file to Typescript.
  * You might discover a bug!
  *
